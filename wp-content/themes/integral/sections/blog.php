@@ -14,7 +14,7 @@
 		<?php if ($integral['blog-title']) { ?>
         <div class="row">
 			<div class="col-md-12">			
-				<h2 class="smalltitle"><?php echo $integral['blog-title']; ?><span></span></h2>
+				<h2 class="smalltitle"><?php pll_e('Наш блог'); ?><span></span></h2>
 			</div>
         </div>
         <?php } ?>

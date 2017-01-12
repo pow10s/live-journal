@@ -14,8 +14,8 @@
 		<div class="row">
 			<div class="col-md-12 heading">
                 <?php if ($integral['about-title-icon']) { ?><i class="fa <?php echo $integral['about-title-icon']; ?>"></i><?php } ?>
-				<?php if ($integral['about-title']) { ?><h2 class="bigtitle"><span><?php echo $integral['about-title']; ?></span></h2><?php } ?>
-                <?php if ($integral['about-subtitle']) { ?><p class="subtitle"><?php echo $integral['about-subtitle']; ?></p><?php } ?>
+				<?php if ($integral['about-title']) { ?><h2 class="bigtitle"><span><?php pll_e('Про нас'); ?></span></h2><?php } ?>
+                <?php if ($integral['about-subtitle']) { ?><p class="subtitle"><?php pll_e('Про нас сабтайтл'); ?></p><?php } ?>
 			</div>
 			<div class="col-md-12">
                 <?php

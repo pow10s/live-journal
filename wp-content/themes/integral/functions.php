@@ -62,3 +62,10 @@ require get_template_directory() . '/inc/tgm-plugin-activation.php';
 * Theme Demo Import functions.
 */
 require get_template_directory() . '/inc/theme-demo-import.php';
+
+/*TRANSLATES*/
+pll_register_string('Journal section', 'Журнал');
+pll_register_string('About us', 'Про нас');
+pll_register_string('About us subtitle', 'Про нас сабтайтл');
+pll_register_string('Our team', 'Наша команда');
+pll_register_string('From our blog', 'Наш блог');

@@ -14,7 +14,7 @@
 		<?php if ($integral['team-title']) { ?>
         <div class="row">
 			<div class="col-md-12">			
-				<h2 class="smalltitle"><?php echo $integral['team-title']; ?><span></span></h2>
+				<h2 class="smalltitle"><?php pll_e('Наша команда'); ?><span></span></h2>
 			</div>
         </div>
         <?php } ?>

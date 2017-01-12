@@ -14,7 +14,7 @@
 		<div class="row">
 			<?php if ($integral['project-single-title']) { ?>
             <div class="col-md-12">			
-				<h2 class="smalltitle"><?php echo $integral['project-single-title']; ?><span></span></h2>
+				<h2 class="smalltitle"><?php pll_e('Журнал'); ?><span></span></h2>
 			</div>
             <?php } ?>
             <?php if ( is_active_sidebar( 'single-project-widgets' ) ) : ?>
